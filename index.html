@@ -1,24 +1,212 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Psychotherapy Services | Compassionate Mental Health Support</title>
-    <meta name="description" content="Expert psychotherapy services offering individual therapy, couples counseling, and CBT. Find your path to inner peace with compassionate, professional mental health support." />
-    <meta name="author" content="Therapy Services" />
+    <meta name="description" content="Expert psychotherapy services offering individual therapy, couples counseling, and CBT. Find your path to inner peace with compassionate, professional mental health support.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">Therapy Services</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-links" id="navLinks">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="about.html" class="nav-link">About Me</a>
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-    <meta property="og:title" content="Professional Psychotherapy Services | Mental Health Support" />
-    <meta property="og:description" content="Compassionate therapy services including individual therapy, couples counseling, and mindfulness-based approaches. Start your journey to wellness today." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-gradient"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                Find Your Path to
+                <span class="hero-highlight">Inner Peace</span>
+            </h1>
+            <p class="hero-subtitle">
+                Compassionate, professional therapy services to support your mental health journey
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Schedule a Consultation</a>
+                <a href="#services" class="btn btn-outline">Learn More</a>
+            </div>
+        </div>
+    </section>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    <!-- Services Section -->
+    <section id="services" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive mental health support tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="icon-circle">
+                            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Individual Therapy</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">One-on-one sessions tailored to your unique needs, providing a safe space to explore your thoughts and feelings.</p>
+                    </div>
+                </div>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="icon-circle">
+                            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Couples Counseling</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">Strengthen your relationship through improved communication and deeper understanding of each other's perspectives.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="icon-circle">
+                            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Cognitive Behavioral Therapy</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">Evidence-based approach to help you identify and change negative thought patterns and behaviors.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="icon-circle">
+                            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Mindfulness & Wellness</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">Learn techniques to reduce stress, increase self-awareness, and cultivate inner peace in your daily life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Our Approach</h2>
+                <div class="about-text">
+                    <p>We believe in creating a warm, non-judgmental environment where you can feel safe to explore your thoughts, feelings, and experiences. Our therapeutic approach is grounded in evidence-based practices while remaining flexible to meet your individual needs.</p>
+                    <p>Every person's journey is unique, and we honor that by tailoring our methods to best serve you. Whether you're dealing with anxiety, depression, relationship issues, or simply seeking personal growth, we're here to support you every step of the way.</p>
+                    <div class="about-box">
+                        <h3 class="about-box-title">What to Expect</h3>
+                        <ul class="about-list">
+                            <li><span class="bullet">•</span><span>A confidential, supportive space to share your concerns</span></li>
+                            <li><span class="bullet">•</span><span>Collaborative goal-setting based on your needs</span></li>
+                            <li><span class="bullet">•</span><span>Evidence-based therapeutic techniques</span></li>
+                            <li><span class="bullet">•</span><span>Regular progress reviews and adjustments</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">Ready to start your journey? We're here to help</p>
+            </div>
+            <div class="contact-content">
+                <div class="card card-large">
+                    <div class="card-header-centered">
+                        <h3 class="card-title-large">Contact Information</h3>
+                        <p class="card-description">Reach out to schedule your first consultation</p>
+                    </div>
+                    <div class="card-content">
+                        <div class="contact-grid">
+                            <div class="contact-item">
+                                <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                </svg>
+                                <div>
+                                    <h4 class="contact-label">Phone</h4>
+                                    <p class="contact-value">(555) 123-4567</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                                <div>
+                                    <h4 class="contact-label">Email</h4>
+                                    <p class="contact-value">contact@therapy.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                </svg>
+                                <div>
+                                    <h4 class="contact-label">Location</h4>
+                                    <p class="contact-value">123 Wellness Street, Suite 100</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                                <div>
+                                    <h4 class="contact-label">Hours</h4>
+                                    <p class="contact-value">Mon-Fri: 9AM - 6PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-cta">
+                            <a href="contact.html" class="btn btn-primary btn-lg">Schedule Your Consultation</a>
+                            <p class="contact-note">Most insurance plans accepted. Sliding scale fees available.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Therapy Services. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
